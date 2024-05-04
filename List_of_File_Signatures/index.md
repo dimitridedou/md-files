@@ -42,8 +42,8 @@
 |----------|:-:|:-:|-|-|
 |`52 61 72 21 1A 07 00`	|`Rar!␚␇␀`|0| rar | Roshal ARchive compressed archive v1.50 onwards|
 |`52 61 72 21 1A 07 01 00`	|`Rar!␚␇␁␀`|0|rar|Roshal ARchive compressed archive v5.00 onwards|
-|`1F 9D`|`␟□`|0| z'\ntar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm|
-|`1F A0`|`␟⍽`|0| z\ntar.z|Compressed file (often tar zip) using LZH algorithm|
+|`1F 9D`|`␟□`|0| z' tar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm|
+|`1F A0`|`␟⍽`|0| z tar.z|Compressed file (often tar zip) using LZH algorithm|
 |'37 7A BC AF 27 1C`|`7z¼¯'␜`|0|7z|7-Zip File Format|
 |`1F 8B`|`␟‹`|0|gz   tar.gz|GZIP compressed file|
 
@@ -53,13 +53,13 @@
 |----------|:-:|:-:|-|-|
 |`50 4B 03 04`|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
 |`50 4B 07 08`   (spanned archive)|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
-|`50 4B 05 06`   (empty archive)|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
+|`50 4B 05 06`   (empty archive)|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx |xpi zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
 
 
 # Lunix
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`21 3C 61 72 63 68 3E 0A`|`11`|0|deb|linux deb file|
+|`21 3C 61 72 63 68 3E 0A`|`!<arch>␊`|0|deb|linux deb file|
 
 # SQL
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
