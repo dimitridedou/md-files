@@ -38,6 +38,7 @@
 
 
 # Compressed Archiver - compressed file
+
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
 |`52 61 72 21 1A 07 00`	|`Rar!␚␇␀`|0| rar | Roshal ARchive compressed archive v1.50 onwards|
