@@ -12,8 +12,7 @@
 # Video
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`52 49 46 46 ?? ?? ?? ??`  
-`57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
+|`52 49 46 46 ?? ?? ?? ??`  `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
 |`66 74 79 70 69 73 6F 6D`|`ftypisom`|4|mp4|ISO Base Media file (MPEG-4)|
 
 
@@ -65,7 +64,7 @@
 # SQL
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`53 51 4C 69 74 65 20 66` <br /> `6F 72 6D 61 74 20 33 00` |`SQLite format 3␀`|0|sqlitedb   sqlite   db  | SQLite Database|
+|`53 51 4C 69 74 65 20 66`  `6F 72 6D 61 74 20 33 00` |`SQLite format 3␀`|0|sqlitedb   sqlite   db  | SQLite Database|
 
 
 # Executable
