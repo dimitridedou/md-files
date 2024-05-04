@@ -10,18 +10,20 @@
 
 
 # Video
+
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`52 49 46 46 ?? ?? ?? ??`  `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
+|`52 49 46 46 ?? ?? ?? ??` <br> `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
 |`66 74 79 70 69 73 6F 6D`|`ftypisom`|4|mp4|ISO Base Media file (MPEG-4)|
 
 
 # Αρχεία Ηχου
+
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
 | `FF FB`   `FF F3`   `FF F2` |`ÿû` `ÿó` `ÿò`|0|mp3	 | MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)|
 |`49 44 33`	|`ID3`|0|mp3|MP3 file with an ID3v2 container|
-|`52 49 46 46 ?? ?? ?? ??` \n `57 41 56 45` |`RIFF????WAVE`|0|wav|Waveform Audio File Format|
+|`52 49 46 46 ?? ?? ?? ??` <br> `57 41 56 45` |`RIFF????WAVE`|0|wav|Waveform Audio File Format|
 
 
 
