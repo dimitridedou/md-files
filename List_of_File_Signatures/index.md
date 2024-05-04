@@ -12,7 +12,7 @@
 # Video
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`52 49 46 46 ?? ?? ?? ??` <br /> `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
+|`52 49 46 46 ?? ?? ?? ??` \n `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
 |`66 74 79 70 69 73 6F 6D`|`ftypisom`|4|mp4|ISO Base Media file (MPEG-4)|
 
 
