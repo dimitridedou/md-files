@@ -59,7 +59,7 @@
 # Lunix
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`21 3C 61 72 63 68 3E 0A`|`!< arch>␊`|0|deb|linux deb file|
+|`21 3C 61 72 63 68 3E 0A`|`11`|0|deb|linux deb file|
 
 # SQL
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
