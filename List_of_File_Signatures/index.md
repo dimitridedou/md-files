@@ -1,4 +1,5 @@
-**Offiset** : Mια μετατόπιση εντός ενός πίνακα ή άλλου αντικειμένου δομής δεδομένων είναι ένας ακέραιος αριθμός που υποδεικνύει την απόσταση (μετατόπιση) μεταξύ της αρχής του αντικειμένου και ενός δεδομένου στοιχείου ή σημείου, πιθανώς εντός του ίδιου αντικειμένου.Η έννοια της απόστασης ισχύει μόνο εάν όλα τα στοιχεία του αντικειμένου έχουν το ίδιο μέγεθος (συνήθως δίνονται σε byte ή λέξεις).<br>
+**Offiset** : Mια μετατόπιση εντός ενός πίνακα ή άλλου αντικειμένου δομής δεδομένων είναι ένας ακέραιος αριθμός που υποδεικνύει την απόσταση (μετατόπιση) μεταξύ της αρχής του αντικειμένου και ενός δεδομένου στοιχείου ή σημείου, πιθανώς εντός του ίδιου αντικειμένου.Η έννοια της απόστασης ισχύει μόνο εάν όλα τα στοιχεία του αντικειμένου έχουν το ίδιο μέγεθος (συνήθως δίνονται σε byte ή λέξεις).
+
 Για παράδειγμα, εάν το A είναι ένας πίνακας χαρακτήρων που περιέχει "abcdef", το τέταρτο στοιχείο που περιέχει τον χαρακτήρα "d" έχει μετατόπιση 3 από την αρχή του A.
 
 
@@ -20,7 +21,7 @@
 |----------|:-:|:-:|-|-|
 | `FF FB` <br> `FF F3` <br> `FF F2` |`ÿû`<br>`ÿó`<br>`ÿò`|0|mp3	 | MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)|
 |`49 44 33`	|`ID3`|0|mp3|MP3 file with an ID3v2 container|
-|`52 49 46 46 ?? ?? ?? ??` <br> `57 41 56 45` |`RIFF????WAVE`|0|wav|Waveform Audio File Format|
+|`52 49 46 46 ?? ?? ?? ??` \n `57 41 56 45` |`RIFF????WAVE`|0|wav|Waveform Audio File Format|
 
 
 
@@ -41,8 +42,8 @@
 |----------|:-:|:-:|-|-|
 |`52 61 72 21 1A 07 00`	|`Rar!␚␇␀`|0| rar | Roshal ARchive compressed archive v1.50 onwards|
 |`52 61 72 21 1A 07 01 00`	|`Rar!␚␇␁␀`|0|rar|Roshal ARchive compressed archive v5.00 onwards|
-|`1F 9D`|`␟□`|0| z<br>tar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm|
-|`1F A0`|`␟⍽`|0| z<br>tar.z|Compressed file (often tar zip) using LZH algorithm|
+|`1F 9D`|`␟□`|0| z'\ntar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm|
+|`1F A0`|`␟⍽`|0| z\ntar.z|Compressed file (often tar zip) using LZH algorithm|
 |'37 7A BC AF 27 1C`|`7z¼¯'␜`|0|7z|7-Zip File Format|
 |`1F 8B`|`␟‹`|0|gz <br> tar.gz|GZIP compressed file|
 
