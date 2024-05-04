@@ -12,14 +12,15 @@
 # Video
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`52 49 46 46 ?? ?? ?? ??` \n `57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
+|`52 49 46 46 ?? ?? ?? ??`  
+`57 41 56`|`RIFF????AVI␠`|0|avi|Audio Video Interleave video format|
 |`66 74 79 70 69 73 6F 6D`|`ftypisom`|4|mp4|ISO Base Media file (MPEG-4)|
 
 
 # Αρχεία Ηχου
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-| `FF FB` <br> `FF F3` <br> `FF F2` |`ÿû`<br>`ÿó`<br>`ÿò`|0|mp3	 | MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)|
+| `FF FB`   `FF F3`   `FF F2` |`ÿû` `ÿó` `ÿò`|0|mp3	 | MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)|
 |`49 44 33`	|`ID3`|0|mp3|MP3 file with an ID3v2 container|
 |`52 49 46 46 ?? ?? ?? ??` \n `57 41 56 45` |`RIFF????WAVE`|0|wav|Waveform Audio File Format|
 
@@ -45,15 +46,15 @@
 |`1F 9D`|`␟□`|0| z'\ntar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm|
 |`1F A0`|`␟⍽`|0| z\ntar.z|Compressed file (often tar zip) using LZH algorithm|
 |'37 7A BC AF 27 1C`|`7z¼¯'␜`|0|7z|7-Zip File Format|
-|`1F 8B`|`␟‹`|0|gz <br> tar.gz|GZIP compressed file|
+|`1F 8B`|`␟‹`|0|gz   tar.gz|GZIP compressed file|
 
 > zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML
 
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`50 4B 03 04`|`PK␃␄`|0|zip  <br> aar <br> apk <br> docx <br> epub <br> ipa <br> jar <br> kmz  <br> maff <br> msix <br> odp <br> ods <br> odt <br> pk3 <br> pk4 <br> pptx <br> usdz <br> vsdx <br> xlsx <br> xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
-|`50 4B 07 08` <br> (spanned archive)|`PK␃␄`|0|zip  <br> aar <br> apk <br> docx <br> epub <br> ipa <br> jar <br> kmz  <br> maff <br> msix <br> odp <br> ods <br> odt <br> pk3 <br> pk4 <br> pptx <br> usdz <br> vsdx <br> xlsx <br> xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
-|`50 4B 05 06` <br> (empty archive)|`PK␃␄`|0|zip  <br> aar <br> apk <br> docx <br> epub <br> ipa <br> jar <br> kmz  <br> maff <br> msix <br> odp <br> ods <br> odt <br> pk3 <br> pk4 <br> pptx <br> usdz <br> vsdx <br> xlsx <br> xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
+|`50 4B 03 04`|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
+|`50 4B 07 08`   (spanned archive)|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
+|`50 4B 05 06`   (empty archive)|`PK␃␄`|0|zip    aar   apk   docx   epub   ipa   jar   kmz    maff   msix   odp   ods   odt   pk3   pk4   pptx   usdz   vsdx   xlsx   xpi|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML|
 
 
 # Lunix
@@ -64,13 +65,13 @@
 # SQL
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`53 51 4C 69 74 65 20 66` <br /> `6F 72 6D 61 74 20 33 00` |`SQLite format 3␀`|0|sqlitedb <br> sqlite <br> db <br>| SQLite Database|
+|`53 51 4C 69 74 65 20 66` <br /> `6F 72 6D 61 74 20 33 00` |`SQLite format 3␀`|0|sqlitedb   sqlite   db  | SQLite Database|
 
 
 # Executable
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-|`4D 5A`	|`MZ`|0|exe <br> scr <br> sys <br> dll <br> fon <br> cpl <br> iec <br> ime <br> rs <br>  tsp <br> mz | DOS MZ executable and its descendants (including NE and PE)|
+|`4D 5A`	|`MZ`|0|exe   scr   sys   dll   fon   cpl   iec   ime   rs    tsp   mz | DOS MZ executable and its descendants (including NE and PE)|
 |`7F 45 4C 46`	| |0| | Executable and Linkable Format|
 
 
@@ -78,5 +79,5 @@
 # Διαφορα
 | Hex signature |ISO 8859-1 |Offset|Extension|Περιγραφη|
 |----------|:-:|:-:|-|-|
-| `43 44 30 30 31`|`CD001`|`0x8001`<br>`0x8801`<br>`0x9001` |iso | ISO9660 CD/DVD image file |
+| `43 44 30 30 31`|`CD001`|`0x8001` `0x8801` `0x9001` |iso | ISO9660 CD/DVD image file |
 | `53 50 30 31`	|`SP01`|0|bin |Amazon Kindle Update Package|
